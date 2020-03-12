@@ -1,12 +1,12 @@
 # PruebaAngular
 
-1- Crear un servicio de autentificación que consuma el endpoint /api/login usando los datos 
+1- Crear un servicio de autentificación que consuma el endpoint https://reqres.in/api/login usando los datos 
     "email": "eve.holt@reqres.in",
     "password": "cityslicka"
     
     NOTA: Guardar en el localStorage el token retornado por el endpoint.
     
-2- Crear un servicio que consuma el endpoint /api/users y los muestre en una lista dentro de dashboard. 
+2- Crear un servicio que consuma el endpoint https://reqres.in/api/users y los muestre en una lista dentro de dashboard. 
  
     NOTA: Crear un interceptor que en caso de que exista el token en el localStorage lo introduzca en el header de las llamadas.
 
