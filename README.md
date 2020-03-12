@@ -7,8 +7,8 @@
     NOTA: Guardar en el localStorage el token retornado por el endpoint.
     
 2- Crear un servicio que consuma el endpoint /api/users y los muestre en una lista dentro de dashboard. 
-
-NOTA: Crear un interceptor que en caso de que exista el token en el localStorage lo introduzca en el header de las llamadas.
+ 
+    NOTA: Crear un interceptor que en caso de que exista el token en el localStorage lo introduzca en el header de las llamadas.
 
 3- Crear un middleware de autentificacion que en caso de que no exista un token en el localstorage no permita entrar a la vista dashboard y rediriga al usuario al login.
 
